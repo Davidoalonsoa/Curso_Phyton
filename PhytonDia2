@@ -1,0 +1,52 @@
+#print ("Dia 2")
+''' num1 = input ("ingrese numero 1")
+num2 = input ("ingrese numero 2")
+resultado = int(num1) + int(num2)
+print (type(resultado))  '''
+
+#interpolacion para concatenar
+''' hoy = 2021
+nacimiento = int(input("Ingrese el año de nacimiento "))
+edad = hoy - nacimiento
+print (f'este año tienes {edad} años') '''
+
+# FUNCIONES
+''' def NombreFuncion(): #definicion de la funcion
+  pass #no ejecuta la funcion
+
+def Saludo():
+  print ("Bienvenido tienda de camisetas")
+  print("existe gran surtido de camisetas ")
+  print("disfruta comprando")
+
+print ("fuera o dentro de la funcion")
+Saludo() #llamado de la funcion
+
+def SaludoPara (OfertaEspesial): #definicion de fuincion con parametros
+  print ("Bienvenido tienda de camisetas")
+  print("existe gran surtido de camisetas de " + OfertaEspesial)
+  print("disfruta comprando")
+
+SaludoPara(" avengers")
+
+def Saludo3 (OfertaEspesial , Tienda ):
+  print ("Bienvenido tienda de camisetas" + Tienda)
+  print("existe gran surtido de camisetas de " + OfertaEspesial)
+  print("disfruta comprando")
+
+Saludo3 (Tienda="Tienda_pajarito", OfertaEspesial = "batman") # llamado de funcion con parametros '''
+
+def Divide4 (Numero): #retorno de valores
+  return Numero/4
+
+resultado=Divide4 (16)
+print (resultado)
+
+def Cuadrado (Numx,Numy):
+  Cuax = Numx ** 2
+  Cuay = Numy * Numy
+  return Cuax , Cuay
+
+XCuadrado , YCuadrado = Cuadrado (2,3)
+print ("X al cuadrado es "+str(XCuadrado))
+print ("Y al cuadrado es "+str(YCuadrado))
