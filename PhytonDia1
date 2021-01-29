@@ -1,0 +1,26 @@
+from Dia2 import *
+
+''' LECTURA E IMPRESION DE DATOS
+
+print ("Hola Mundo")
+
+print ("Ingrese su nombre ") x = input() print ("Hola " + x
+
+un_integer = 2 un_float = 2.1
+
+-- OPERACIONES MATEMATICAS
+
+print (un_integer + 3) print (573 - 1 + 5) print (25*2) print (10/5) precio_cafe = 2 Numero_cafe = 4 print ("El valor de los cafes es ") print ( precio_cafe * Numero_cafe) 
+
+#print (15 ** 2) # Potencias #print (4 ** 0.5) # raiz Cuadrada #print (29 % 5) # Modulo #print (44 % 2)  # -- CONCATENACION
+
+Cumple_uno = "Yo tengo " edad = 36 cumple_dos = " años" mensaje_completo = Cumple_uno + str(edad) + cumple_dos # str convierte el dato a texto print (mensaje_completo)   # MAS IGUAL
+
+num_km = 5 #num_km = num_km + 4 num_km += 4 # suma nuevo valor a una variable print (num_km)
+
+recorrido = "el recorrido es de xxx" recorrido += " #running" recorrido += " 5K" print (recorrido) 
+String Multi linea
+
+#parrafo =  #Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande #Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande Parrafo grande #
+
+#print(parrafo) '''
